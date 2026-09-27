@@ -1,0 +1,19 @@
+{
+  "name": "openhouse",
+  "version": "1.0.0",
+  "description": "A self-hosted web proxy with a pretty front end — open sites blocked on a network by fetching them through your own server.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["proxy", "unblocker", "web-proxy"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "unblocker": "^2.3.1"
+  }
+}
